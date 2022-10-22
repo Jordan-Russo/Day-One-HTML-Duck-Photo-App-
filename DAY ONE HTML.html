@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"></meta>
+    <title>AllAboutDuckPhotoGallery</title>
+    <!--After just learning about HTML for a day, I wanted a project to show what I learned thus far to solidify what I knew. I'm eager to improve and I hope that I can look back and this day one of HTML project fondly. ~ Jordan Russo -->
+  </head>
+  <body>
+    <main>
+      <h1>Duck Photo Gallery</h1>
+      <section>
+        <h2>Duck Photos</h2>
+        <p>To view many more duck photos please <a target="_blank" href="https://unsplash.com/s/photos/duck"><strong>click here</strong></a> or on the image below. </p>
+        <figure>
+          <a href="https://unsplash.com/s/photos/duck"><img src="https://assets.whatbird.com/api/image/birds_na_147/image/48562" alt ="A Male Ruddy Duck."></a>
+          <figcaption> This is a picture of a North American male Ruddy Duck (<em>Oxyura jamaicensis</em>) during its summer breeding season.
+          </figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Duck Facts</h2>
+        <h3>Ducks Enjoy Eating:</h3>
+        <ul>
+         <li>Seeds & Grains (<strong>BUT AVOID <u>Crackers AND BREAD</u></strong>)</li>
+         <li>Fruits (<strong>BUT AVOID <u>CITRUS FRUITS AND AVOCADOS</u></strong>)</li>
+         <li>Vegetables(<strong>BUT AVOID <u>SPINACH</u></strong>)</li>
+         <li>Fish & Insects</li>
+        </ul>
+        <figure>
+          <a href="https://unsplash.com/s/photos/duck"><img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/815/cached.offlinehbpl.hbpl.co.uk/news/ORP/Aflac-20150803072351889.jpg" alt="Comedic image of a duck eating a watermelon"></a>
+          <figcaption><strong>Ducks <em>ABSOLUTELY LOVE</em> Watermelon</strong>!
+          </figcaption>
+        </figure>
+        <h3>3 Things that all Ducks Need:</h3>
+          <ol>
+            <li>Water to Bathe, Swim and Drink</li>
+            <li>The Company of Friends to Socialize with</li>
+            <li>Enough Space to Roam around and Exercise within</li>
+          </ol>
+          <figure>
+            <a href="https://unsplash.com/s/photos/duck"><img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/2._two_mallard_ducks-64fdb26.jpg?quality=90&fit=600,350" alt="Two mallard ducks swimming in a pond"></a>
+            <figcaption>Ducks are <u><strong>social creatures</strong> that <strong>love</strong>, <strong>laugh</strong>, and <strong>live</strong></u> in bodies of water.</figcaption>
+      </section>
+      <section>
+        <h2>Duck Short Questionare</h2>
+        <form action="https://allaboutduckphotogallery.com/submit-duck-questionare"><!-- Submission site isn't real so it will fail -->
+          <fieldset>
+            <legend>Do you have a domesticated duck or are looking to get one?</legend>
+            <input checked id="owner" type="radio" name="owner-buyer" value="owner"><label for="owner">I am already an owner of ducks.</label>
+            <input id="buyer" type="radio" name="owner-buyer" value="buyer"><label for="buyer">I would like to buy my first ducks.</label>
+            <input id="owner-buyer" type="radio" name="owner-buyer" value="owner-buyer"><label for="owner-buyer">I already am the proud owner of ducks but I am looking for some more.</label>
+          </fieldset>
+          <fieldset>
+            <legend>What types of ducks do you have or are looking for?</legend>
+            <label><input checked id="pekin" type="checkbox" name="ducktype" value="pekin">Pekin</label>
+            <label><input id="rouen" type="checkbox" name="ducktype" value="rouen">Rouen</label>
+            <label><input id="crested" type="checkbox" name="ducktype" value="crested">Crested</label>
+            <label><input id="indianrunner" type="checkbox" name="ducktype" value="indianrunner">Indian Runner</label>
+            <label><input id="hookbill" type="checkbox" name="ducktype" value="hookbill">Hook Bill</label>
+            <label><input id="saxony" type="checkbox" name="ducktype" value="saxony">Saxony</label>
+            <label><input id="mallard" type="checkbox" name="ducktype" value="mallard">Mallard</label>
+            <label><input id="ruddy" type="checkbox" name="ducktype" value="ruddy">Ruddy</label>
+          </fieldset>
+          <input type="text" name="duckphotourl" placeholder="Duck Picture URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Made by Jordan Russo - <a target="_blank" href="https://github.com/Jordan-Russo?tab=repositories">Github</a>
+      </p>
+    </footer>
+  </body>
+</html>
